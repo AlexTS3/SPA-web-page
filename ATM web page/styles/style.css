@@ -1,6 +1,6 @@
 body,
 html {
-    height: 100%;
+    height: 90%;
 }
 
 .navBtn {
@@ -21,9 +21,11 @@ html {
 .navBtn:hover {
     background-color: orange;
     text-shadow: 4px 4px 5px black;
-    border-radius: 45%;
+    /* border-radius: 45%; */
     box-shadow: 4px 4px 15px orangered;
     color: black;
+    transform: scale(1.1);
+    border-radius: 10px;
 }
 
 .navbar {
@@ -36,6 +38,33 @@ html {
     margin-right: auto;
     size: 150;
     width: 40%;
+}
+
+.gymOptions {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.gymBtn {
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    text-align: center;
+    padding: 12px 25px;
+    margin: 7px;
+    border-radius: 10px;
+    width: 600px;
+    transition-duration: 0.4s;
+}
+
+.gymBtn:hover {
+    background-color:orange;
+    color: black;
+    text-shadow: 4px 4px 5px black;
+    box-shadow: 4px 4px 15px orangered;
+    transform: scale(1.1);
 }
 
 h3 {

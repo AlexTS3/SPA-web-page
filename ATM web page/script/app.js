@@ -12,6 +12,7 @@ import { aboutPage } from "./views/about.js";
 const root = document.querySelector('main');
 
 page(middleware);
+page('/index.html', '/');
 page('/', homePage);
 page('/gym', gymPage);
 page('/physio', physioPage);

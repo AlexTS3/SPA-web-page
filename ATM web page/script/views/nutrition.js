@@ -2,7 +2,7 @@ import { html } from "../../node_modules/lit-html/lit-html.js";
 
 
 const nutriTemplate = () => html`
-<p>This is the Nutrition Talks Page</p>`;
+<h3>This is the Nutrition Talks Page</h3>`;
 
 
 export function nutriPage(ctx) {
