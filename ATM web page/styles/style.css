@@ -58,7 +58,7 @@ html {
 }
 
 .gymBtn:hover {
-    background-color:orange;
+    background-color: orange;
     color: black;
     box-shadow: 4px 4px 15px orangered;
     transform: scale(1.1);
@@ -84,7 +84,7 @@ html {
 }
 
 .physioBtn:hover {
-    background-color:rgb(21, 197, 21);
+    background-color: rgb(21, 197, 21);
     color: black;
     box-shadow: 4px 4px 15px rgb(33, 168, 33);
     transform: scale(1.1);
@@ -110,15 +110,15 @@ html {
 }
 
 .nutriBtn:hover {
-    background-color:orange;
+    background-color: orange;
     color: black;
     box-shadow: 4px 4px 15px orangered;
     transform: scale(1.1);
 }
 
-h3 {
-    color: white;
+.about {
     text-align: center;
+    color: black;
 }
 
 h1 {
@@ -132,8 +132,13 @@ h2 {
     color: white;
 }
 
+h3 {
+    color: white;
+    text-align: center;
+}
+
 body {
-    background-image: url("../resources/pexels-photo-1552252.jpeg");
+    background-image: none;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
