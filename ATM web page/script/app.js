@@ -21,6 +21,7 @@ page('/about', aboutPage);
 
 
 page.start();
+navBar();
 
 function middleware(ctx, next) {
     ctx.render = (content) => render(content, root);

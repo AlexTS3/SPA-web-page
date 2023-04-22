@@ -20,8 +20,6 @@ html {
 
 .navBtn:hover {
     background-color: orange;
-    text-shadow: 4px 4px 5px black;
-    /* border-radius: 45%; */
     box-shadow: 4px 4px 15px orangered;
     color: black;
     transform: scale(1.1);
@@ -62,7 +60,6 @@ html {
 .gymBtn:hover {
     background-color:orange;
     color: black;
-    text-shadow: 4px 4px 5px black;
     box-shadow: 4px 4px 15px orangered;
     transform: scale(1.1);
 }
