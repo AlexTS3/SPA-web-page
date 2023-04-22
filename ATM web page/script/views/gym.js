@@ -8,7 +8,6 @@ const gymPageTemplate = () => html`
 <a class="gymBtn" href="/cardio" >Кардио тренировки</a>
 <a class="gymBtn" href="/functional" >Функционални тренировки</a>
 <a class="gymBtn" href="/mobility" >Тренировки за подвижност</a>
-<a class="gymBtn" href="/postural" >Тренировки за подобряване на стойката</a>
 <a class="gymBtn" href="/conditioning" >Кондиционни тренировки</a>
 </div>`;
 
