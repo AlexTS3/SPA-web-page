@@ -5,14 +5,13 @@ const navRoot = document.querySelector('header');
 
 const navBarTemplate = () => html`
  <div class="navbar">
-            <a class="navBtn home" href="/">Home</a>
-            <a class="navBtn gym" href="/gym">Gym Talks</a>
-            <a class="navBtn physio" href="/physio">Physio Talks</a>
-            <a class="navBtn nutri" href="/nutrition">Nutrition Talks</a>
-            <a class="navBtn about" href="/about">About Us</a>
+            <a class="navBtn" href="/">Home</a>
+            <a class="navBtn" href="/gym">Gym Talks</a>
+            <a class="navBtn" href="/physio">Physio Talks</a>
+            <a class="navBtn" href="/nutrition">Nutrition Talks</a>
+            <a class="navBtn" href="/about">About Us</a>
         </div>`
 
-export function navBar() {
-    console.log('test');
+export function navBar() {   
     render(navBarTemplate(), navRoot)
 }

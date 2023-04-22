@@ -27,6 +27,11 @@ html {
 }
 
 .navbar {
+    overflow: auto;
+    margin-top: -0.5%;
+    margin-left: -0.26%;
+    margin-right: -0.26%;
+    background-color: darkslateblue;
     text-align: center;
 }
 
@@ -139,7 +144,9 @@ h3 {
 
 body {
     background-image: none;
-    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
 }
