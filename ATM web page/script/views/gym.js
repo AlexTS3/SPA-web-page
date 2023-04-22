@@ -14,4 +14,5 @@ const gymPageTemplate = () => html`
 
 export function gymPage(ctx) {
     ctx.render(gymPageTemplate());
+    document.body.style.backgroundImage = "url('../../resources/pexels-photo-1552252.jpeg')";
 }
