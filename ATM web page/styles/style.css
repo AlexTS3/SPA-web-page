@@ -3,6 +3,11 @@ html {
     height: 90%;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .navBtn {
     background-color: orangered;
     border: none;
@@ -28,19 +33,12 @@ html {
 
 .navbar {
     overflow: auto;
-    margin-top: -0.5%;
+    width: 100vw;
+    /* margin-top: -0.5%;
     margin-left: -0.26%;
-    margin-right: -0.26%;
+    margin-right: -0.26%; */
     background-color: darkslateblue;
     text-align: center;
-}
-
-.homeImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    size: 150;
-    width: 40%;
 }
 
 .gymOptions {
@@ -143,10 +141,8 @@ h3 {
 }
 
 body {
-    background-image: none;
-    width: 100vw;
+    background-image: "url('../../resources/mount-fuji-2297961_960_720.jpg')";
     height: 100vh;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
 }
