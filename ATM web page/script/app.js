@@ -7,6 +7,11 @@ import { gymPage } from "./views/gym.js";
 import { physioPage } from "./views/physio.js";
 import { nutriPage } from "./views/nutrition.js";
 import { aboutPage } from "./views/about.js";
+import { acute } from "./views/physio views/acute.js";
+import { chronic } from "./views/physio views/chronic.js";
+import { limited } from "./views/physio views/limitMovement.js";
+import { postural } from "./views/physio views/postural.js";
+import { surgical } from "./views/physio views/surgical.js";
 
 
 const root = document.querySelector('main');
@@ -16,6 +21,11 @@ page('/index.html', '/');
 page('/', homePage);
 page('/gym', gymPage);
 page('/physio', physioPage);
+page('/physio/acute', acute);
+page('/physio/chronic', chronic);
+page('/physio/limitations', limited);
+page('/physio/postural', postural);
+page('/physio/surgical', surgical);
 page('/nutrition', nutriPage);
 page('/about', aboutPage);
 

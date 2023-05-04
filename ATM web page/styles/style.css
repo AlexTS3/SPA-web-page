@@ -124,6 +124,10 @@ html {
     color: black;
 }
 
+.bodyImg {
+    background-image: url('../resources/body.jpg');
+}
+
 h1 {
     text-align: center;
     color: white;
