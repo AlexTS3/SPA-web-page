@@ -4,10 +4,10 @@ const acuteTemplate = () => html`
 <h3>Къде е болката която ви тормози?</h3>
 
 <div class="physioOptions">
-<a class="physioBtn" href="/physio" >Назад</a>
+<a class="backBtn" href="/physio" >Назад</a>
 <a class="physioBtn" href="/physio/acute/upper" >Горни крайници</a>
 <a class="physioBtn" href="/physio/acute/lower" >Долни крайници</a>
-<a class="physioBtn" href="/physio/acute/neck" >Врата</a>
+<a class="physioBtn" href="/physio/acute/neck" >Шиен дял</a>
 <a class="physioBtn" href="/physio/acute/torso" >Торса</a>
 
 </div>`;

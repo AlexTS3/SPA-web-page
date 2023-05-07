@@ -124,9 +124,30 @@ html {
     color: black;
 }
 
+.backBtn {
+    background-color: coral;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 25px;
+    margin: 7px;
+    border-radius: 10px;
+    width: 600px;
+    transition-duration: 0.4s;
+}
+
+.backBtn:hover {
+    background-color: red;
+    color: black;
+    box-shadow: 4px 4px 15px orangered;
+    transform: scale(1.1);
+}
+
 .bodyImg {
     background-image: url('../resources/body.jpg');
 }
+
 
 h1 {
     text-align: center;
