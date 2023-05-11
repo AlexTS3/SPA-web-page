@@ -12,13 +12,15 @@ import { chronic } from "./views/physio views/chronic.js";
 import { limited } from "./views/physio views/limitMovement.js";
 import { postural } from "./views/physio views/postural.js";
 import { surgical } from "./views/physio views/surgical.js";
+import { homeScreen } from "./views/homeScreen.js";
 
 
 const root = document.querySelector('main');
 
 page(middleware);
 page('/index.html', '/');
-page('/', homePage);
+page('/', homeScreen);
+page('/nav-page', homePage)
 page('/gym', gymPage);
 page('/physio', physioPage);
 page('/physio/acute', acute);
@@ -31,7 +33,7 @@ page('/about', aboutPage);
 
 
 page.start();
-navBar();
+// navBar();
 
 function middleware(ctx, next) {
     ctx.render = (content) => render(content, root);

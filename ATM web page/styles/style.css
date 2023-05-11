@@ -37,7 +37,7 @@ html {
     /* margin-top: -0.5%;
     margin-left: -0.26%;
     margin-right: -0.26%; */
-    background-color: darkslateblue;
+    background-color: hsl(0 0% 0% / 0.2);
     text-align: center;
 }
 
@@ -125,7 +125,8 @@ html {
 }
 
 .backBtn {
-    background-color: coral;
+    /* background-color: coral; */
+    background-image: url('../resources/mount-fuji-2297961_960_720.jpg');
     color: white;
     font-size: 35px;
     text-decoration: none;
@@ -148,6 +149,10 @@ html {
     background-image: url('../resources/body.jpg');
 }
 
+.home-logo {
+    
+}
+
 
 h1 {
     text-align: center;
@@ -166,7 +171,7 @@ h3 {
 }
 
 body {
-    background-image: "url('../../resources/mount-fuji-2297961_960_720.jpg')";
+    background-color:rgb(236, 134, 39);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;

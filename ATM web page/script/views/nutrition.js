@@ -15,6 +15,6 @@ const nutriTemplate = () => html`
 
 export function nutriPage(ctx) {
     ctx.render(nutriTemplate());
-    document.body.style.backgroundImage = "url('../../resources/mediterranean-cuisine-2378758_960_720.jpg')";
+    // document.body.style.backgroundImage = "url('../../resources/mediterranean-cuisine-2378758_960_720.jpg')";
     
 }

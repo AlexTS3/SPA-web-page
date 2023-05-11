@@ -15,5 +15,5 @@ const homeTemplate = () => html`
 
 export function homePage(ctx) {
     ctx.render(homeTemplate());
-    document.body.style.backgroundImage = "url('../../resources/mount-fuji-2297961_960_720.jpg')";
+    // document.body.style.backgroundImage = "url('../../resources/mount-fuji-2297961_960_720.jpg')";
 }

@@ -19,5 +19,5 @@ const physioTemplate = () => html`
 
 export function physioPage(ctx) {
     ctx.render(physioTemplate());
-    document.body.style.backgroundImage = "url('../../resources/physiotherapy-595529_960_720.jpg')";
+    // document.body.style.backgroundImage = "url('../../resources/physiotherapy-595529_960_720.jpg')";
 }

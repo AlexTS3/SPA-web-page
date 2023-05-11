@@ -7,6 +7,6 @@ const aboutTemplate = () => html`
 
 export function aboutPage(ctx) {
     ctx.render(aboutTemplate());
-    document.body.style.backgroundImage = "url('../../resources/about.png')";
+    // document.body.style.backgroundImage = "url('../../resources/about.png')";
 
 }
