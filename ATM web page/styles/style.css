@@ -22,7 +22,7 @@ html {
     border-radius: 20px;
     cursor: pointer;
 }
-
+.active,
 .navBtn:hover {
     background-color: orange;
     box-shadow: 4px 4px 15px orangered;
@@ -149,8 +149,37 @@ html {
     background-image: url('../resources/body.jpg');
 }
 
+.home-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 35%;
+    height: 90%;
+    padding: 5%;
+    background-color: hsl(0 0% 0% / 0.2);
+    text-align: center;
+}
+
+
+
 .home-logo {
-    
+    display: block;
+    background-color: rgb(219, 113, 14);
+    width: 100%;
+    margin: auto;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-text {
+    text-align: center;
 }
 
 
@@ -168,6 +197,8 @@ h2 {
 h3 {
     color: white;
     text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
 }
 
 body {

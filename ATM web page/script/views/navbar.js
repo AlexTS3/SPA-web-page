@@ -5,7 +5,7 @@ const navRoot = document.querySelector('header');
 
 const navBarTemplate = () => html`
  <div class="navbar">
-            <a class="navBtn" href="/">Home</a>
+            <a class="navBtn active" href="/">Home</a>
             <a class="navBtn" href="/gym">Gym Talks</a>
             <a class="navBtn" href="/physio">Physio Talks</a>
             <a class="navBtn" href="/nutrition">Nutrition Talks</a>

@@ -33,10 +33,19 @@ page('/about', aboutPage);
 
 
 page.start();
-// navBar();
+navBar();
 
 function middleware(ctx, next) {
     ctx.render = (content) => render(content, root);
     ctx.updateNav = navBar;
     next();
 }
+
+document.querySelector('.navbar').addEventListener('click', (e) => {
+    if(e.target.href){
+        const active = document.querySelector('.active')
+        active.classList.remove('active')
+        e.target.classList.toggle('active')
+    }
+
+})
