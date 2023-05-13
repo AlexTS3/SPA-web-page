@@ -1,6 +1,8 @@
 import { html } from "../../../node_modules/lit-html/lit-html.js";
 
 const limitedTemplate = () => html`
+<div class="container">
+
 <h3>Къде усещате ограничено движение?</h3>
 
 <div class="physioOptions">
@@ -10,6 +12,7 @@ const limitedTemplate = () => html`
 <a class="physioBtn" href="/physio/limitations/neck" >Шиен дял</a>
 <a class="physioBtn" href="/physio/limitations/torso" >Торса</a>
 
+</div>
 </div>`;
 
 export function limited(ctx) {

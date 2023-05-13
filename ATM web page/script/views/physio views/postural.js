@@ -1,6 +1,8 @@
 import { html } from "../../../node_modules/lit-html/lit-html.js";
 
 const posturalTemplate = () => html`
+<div class="container">
+
 <h3>Къде е вашето слабо място?</h3>
 
 <div class="physioOptions">
@@ -9,6 +11,7 @@ const posturalTemplate = () => html`
 <a class="physioBtn" href="/physio/acute/lower" >Долни крайници</a>
 <a class="physioBtn" href="/physio/acute/shoulders" >Раменен пояс</a>
 
+</div>
 </div>`;
 
 export function postural(ctx) {

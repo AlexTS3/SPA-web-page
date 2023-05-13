@@ -2,6 +2,7 @@ import { html } from "../../node_modules/lit-html/lit-html.js";
 
 
 const nutriTemplate = () => html`
+<div class="container">
 <h3>Какво искате да научите за храненето?</h3>
 
 <div class="nutriOptions">
@@ -10,11 +11,13 @@ const nutriTemplate = () => html`
 <a class="nutriBtn" href="/limitations" >Хранителни добавки и как да ги използваме?</a>
 <a class="nutriBtn" href="/postural" >Какво представляват калориите?</a>
 <a class="nutriBtn" href="/surgical" >Съдържание на най-честите храни</a>
+</div>
 </div>`;
 
 
 export function nutriPage(ctx) {
     ctx.render(nutriTemplate());
-    // document.body.style.backgroundImage = "url('../../resources/mediterranean-cuisine-2378758_960_720.jpg')";
+    const container = document.querySelector('.container');
+    container.style.backgroundImage = "url('../../resources/mediterranean-cuisine-2378758_960_720.jpg')";
     
 }

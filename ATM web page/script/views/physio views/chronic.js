@@ -1,6 +1,8 @@
 import { html } from "../../../node_modules/lit-html/lit-html.js";
 
 const chronicTemplate = () => html`
+<div class="container">
+
 <h3>Къде е болката която ви тормози?</h3>
 
 <div class="physioOptions">
@@ -10,6 +12,7 @@ const chronicTemplate = () => html`
 <a class="physioBtn" href="/physio/acute/neck" >Шиен дял</a>
 <a class="physioBtn" href="/physio/acute/torso" >Торса</a>
 
+</div>
 </div>`;
 
 export function chronic(ctx) {

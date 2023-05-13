@@ -1,6 +1,8 @@
 import { html } from "../../../node_modules/lit-html/lit-html.js";
 
 const surgicalTemplate = () => html`
+<div class="container">
+
 <h3>Къде е или ще бъде вашата операция?</h3>
 
 <div class="physioOptions">
@@ -9,6 +11,7 @@ const surgicalTemplate = () => html`
 <a class="physioBtn" href="/physio/surgical/lower" >Долни крайници</a>
 <a class="physioBtn" href="/physio/surgical/torso" >Торса</a>
 
+</div>
 </div>`;
 
 export function surgical(ctx) {
