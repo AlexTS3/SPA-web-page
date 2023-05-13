@@ -45,5 +45,9 @@ document.querySelector('.navbar').addEventListener('click', (e) => {
         active.classList.remove('active')
         e.target.classList.toggle('active')
     }
-
 })
+
+// document.querySelector('.container').addEventListener('click', (e) => {
+//     const currentEl = e.target;
+//     currentEl.setAttribute('class', 'inMenu');
+// })

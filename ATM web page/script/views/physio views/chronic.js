@@ -17,5 +17,4 @@ const chronicTemplate = () => html`
 
 export function chronic(ctx) {
     ctx.render(chronicTemplate());
-    console.log(ctx);
 }

@@ -1,8 +1,8 @@
 import { html } from "../../node_modules/lit-html/lit-html.js";
 
 
-const physioTemplate = () => html`
-<div class="container">
+const physioTemplate = (physioHTML) => html`
+<div @click=${physioHTML} class="container">
 <h3>С какъв проблем можем да ви помогнем?</h3>
 
 <div class="physioOptions">
@@ -20,7 +20,14 @@ const physioTemplate = () => html`
 
 
 export function physioPage(ctx) {
-    ctx.render(physioTemplate());
+    ctx.render(physioTemplate(physioHTML));
     const container = document.querySelector('.container');
     container.style.backgroundImage = "url('../../resources/physiotherapy-595529_960_720.jpg')";
+};
+
+
+export function physioHTML(e) {
+    const textContent = e.target.textContent;
+    const htmlEl = `<p class="inMenu">${textContent}</p>`;
+    return htmlEl;
 }

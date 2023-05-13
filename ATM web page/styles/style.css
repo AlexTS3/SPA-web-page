@@ -83,9 +83,9 @@
 }
 
 .physioBtn:hover {
-    background-color: rgb(21, 197, 21);
+    background-color: rgb(22, 188, 238);
     color: black;
-    box-shadow: 4px 4px 15px rgb(33, 168, 33);
+    box-shadow: 4px 4px 15px rgb(22, 188, 238);
     transform: scale(1.1);
 }
 
@@ -96,8 +96,8 @@
 }
 
 .nutriBtn {
-    background-color: coral;
-    color: white;
+    background-color: rgb(247, 201, 0);
+    color: black;
     text-decoration: none;
     font-size: 35px;
     text-align: center;
@@ -110,7 +110,6 @@
 
 .nutriBtn:hover {
     background-color: orange;
-    color: black;
     box-shadow: 4px 4px 15px orangered;
     transform: scale(1.1);
 }
@@ -121,8 +120,7 @@
 }
 
 .backBtn {
-    /* background-color: coral; */
-    background-image: url('../resources/mount-fuji-2297961_960_720.jpg');
+    background-color: steelblue;
     color: white;
     font-size: 35px;
     text-decoration: none;
@@ -135,9 +133,9 @@
 }
 
 .backBtn:hover {
-    background-color: red;
+    background-color: steelblue;
     color: black;
-    box-shadow: 4px 4px 15px orangered;
+    box-shadow: 4px 4px 15px steelblue;
     transform: scale(1.1);
 }
 
@@ -173,6 +171,12 @@
     align-items: center;
     flex-direction: column;
 }
+
+/* .inMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 h1 {
     text-align: center;

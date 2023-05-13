@@ -16,5 +16,4 @@ const posturalTemplate = () => html`
 
 export function postural(ctx) {
     ctx.render(posturalTemplate());
-    console.log(ctx);
 }

@@ -16,5 +16,4 @@ const acuteTemplate = () => html`
 
 export function acute(ctx) {
     ctx.render(acuteTemplate())
-    console.log(ctx);
 }

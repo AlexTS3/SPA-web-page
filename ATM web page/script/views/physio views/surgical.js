@@ -16,5 +16,4 @@ const surgicalTemplate = () => html`
 
 export function surgical(ctx) {
     ctx.render(surgicalTemplate());
-    console.log(ctx);
 }

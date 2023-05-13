@@ -17,5 +17,4 @@ const limitedTemplate = () => html`
 
 export function limited(ctx) {
     ctx.render(limitedTemplate());
-    console.log(ctx);
 }
