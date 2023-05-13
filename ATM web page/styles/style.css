@@ -1,8 +1,3 @@
-body,
-html {
-    height: 90%;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +17,7 @@ html {
     border-radius: 20px;
     cursor: pointer;
 }
+
 .active,
 .navBtn:hover {
     background-color: orange;
@@ -155,33 +151,26 @@ html {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    width: 35%;
-    height: 90%;
+    width: 45%;
+    height: 60vh;
     padding: 5%;
     background-color: hsl(0 0% 0% / 0.2);
     text-align: center;
 }
 
-
-
 .home-logo {
-    display: block;
-    background-color: rgb(219, 113, 14);
-    width: 100%;
-    margin: auto;
+    display: flex;
+    
+    width: 75%;
+    /* margin: auto; */
 }
 
-.main{
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
-.home-text {
-    text-align: center;
-}
-
 
 h1 {
     text-align: center;
@@ -201,9 +190,16 @@ h3 {
     margin-bottom: 15px;
 }
 
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
 body {
-    background-color:rgb(236, 134, 39);
-    height: 100vh;
-    background-size: cover;
+    background: linear-gradient(#ffd89b, #19547b);
+    min-height: 100vh;
+    background-size: 200%;
     background-repeat: no-repeat;
 }

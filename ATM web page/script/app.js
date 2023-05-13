@@ -2,7 +2,6 @@ import page from "../node_modules/page/page.mjs";
 import { render } from "../node_modules/lit-html/lit-html.js";
 
 import { navBar } from "./views/navbar.js";
-import { homePage } from "./views/home.js";
 import { gymPage } from "./views/gym.js";
 import { physioPage } from "./views/physio.js";
 import { nutriPage } from "./views/nutrition.js";
@@ -20,7 +19,6 @@ const root = document.querySelector('main');
 page(middleware);
 page('/index.html', '/');
 page('/', homeScreen);
-page('/nav-page', homePage)
 page('/gym', gymPage);
 page('/physio', physioPage);
 page('/physio/acute', acute);
