@@ -82,6 +82,13 @@
     transition-duration: 0.4s;
 }
 
+.physioBtn:hover {
+    background-color: rgb(22, 188, 238);
+    color: black;
+    box-shadow: 4px 4px 15px rgb(22, 188, 238);
+    transform: scale(1.1);
+}
+
 .physioHeader {
     background-color: hsl(0 0% 0% / 0.4);
 }
@@ -90,12 +97,6 @@
     background-color: hsl(0 0% 0% / 0.4);
 };
 
-.physioBtn:hover {
-    background-color: rgb(22, 188, 238);
-    color: black;
-    box-shadow: 4px 4px 15px rgb(22, 188, 238);
-    transform: scale(1.1);
-}
 
 .nutriOptions {
     display: grid;
