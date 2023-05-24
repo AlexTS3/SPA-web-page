@@ -3,7 +3,7 @@ import { html } from "../../node_modules/lit-html/lit-html.js";
 
 const nutriTemplate = () => html`
 <div class="container">
-<h3>Какво искате да научите за храненето?</h3>
+<h3 class="nutriHeader" >Какво искате да научите за храненето?</h3>
 
 <div class="nutriOptions">
 <a class="nutriBtn" href="/acute" >Какво са макро и микронутриенти?</a>

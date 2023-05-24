@@ -3,7 +3,9 @@ import { html } from "../../node_modules/lit-html/lit-html.js";
 
 const gymPageTemplate = () => html`
 <div class="container">
+
 <h3>Изберете желаната от вас тема:</h3>
+
 <div class="gymOptions">
 <a class="gymBtn" href="/strength" >Силови тренировки</a>
 <a class="gymBtn" href="/cardio" >Кардио тренировки</a>
